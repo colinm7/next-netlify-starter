@@ -6,12 +6,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next build && next export"
+    "export": "next build"
   },
   "dependencies": {
     "@netlify/plugin-nextjs": "^5.11.1",
     "next": "^16.1.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "engines": {
+    "node": ">=20.9.0"
   }
 }
